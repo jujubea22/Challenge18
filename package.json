@@ -1,0 +1,9 @@
+{
+    "title": "Challenge18-NoSQL",
+    "version": "1.0.0",
+    "main": "server.js",
+    "test": "echo/ error",
+    "author": "Julia",
+    "license": "ISC",
+    "mongoose": "^6.9.1"
+}
