@@ -6,8 +6,7 @@ const port =process.env.port || 3001
 AudioParamMap.use(express.json());
 AudioParamMap.use(routes);
 
-db.onc('open', ())=>{
+db.onc('open', ()=>{
     AudioParamMap.listen(PORT, () =>{
         console.log (' Server on Port ${PORT}!');
-    })
-}
+    })})
